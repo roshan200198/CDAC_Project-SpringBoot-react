@@ -1,0 +1,99 @@
+.camp-detail{
+    position: relative;
+}
+
+.camp-detail img{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.enquiry-card{
+    max-width: 400px;
+    position: absolute;
+    bottom: 0%;
+    right: calc(5% + 50px);
+    transform: translateY(50%);
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #58a919;
+}
+
+.enquiry-card button{
+    border: none;
+    outline: none;
+    background-color: #1b9a6f;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.enquiry-card button:hover{
+    background-color: #00ffa9;
+}
+
+.enquiry-card .price{
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 12px auto;
+    text-align: center;
+}
+
+.enquiry-card .info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px auto
+}
+
+.enquiry-card .info p{
+    margin-left: 10px;
+}
+
+.enquiry-card .info i{
+    color: red;
+}
+
+.camp-detail .destination-name{
+    position: absolute;
+    bottom: 15px;
+    left: calc(5% + 15px);
+    color: white
+}
+
+.camp-detail-page .content{
+    width: 95%;
+    margin: 30px auto;
+}
+
+.camp-detail-page .content p {
+    width: 50%;
+    padding: 20px;
+    color: #5c5c5c;
+}
+
+.camp-detail-page .content p ul {
+    list-style-position: inside;
+}
+
+.camp-detail-page .content h1{
+    color: #1b9a6f;
+    padding: 0 20px;
+}
+
+.camp-detail-page .content .trek-detail-key{
+    font-weight: bold;
+    color: #6d6d6d;
+}
+
+.camp-detail-page .content .trek-list{
+    margin: 10px 0px;
+}
